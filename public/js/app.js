@@ -17,4 +17,5 @@ weatherForm.addEventListener('submit', (e) => {
             messageTwo.textContent = data.forecast;
         })
         .catch(() => messageOne.textContent = 'Failed to fetch forecast')
+
 })
